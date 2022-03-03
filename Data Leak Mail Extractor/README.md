@@ -15,7 +15,7 @@ python3 mail_extractor.py
   
 - "/Outputs" folder contains outputs.
 
-- Note: XML Cleaning section can be modified for different inputs.
+- Note: XML Cleaning section can be modified for different inputs. Also this section will be updated later.
 
 See project on [Source].
 
