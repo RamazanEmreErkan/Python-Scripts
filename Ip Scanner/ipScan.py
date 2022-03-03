@@ -1,7 +1,5 @@
 import socket
-import sys
 import argparse
-import ipaddress
 import requests
 from bs4 import BeautifulSoup
 
@@ -61,7 +59,8 @@ def scanner(rval1 , rval2, rIp):
             if args.title: # if block runs when title argument is written in console
                 scrap(host)
                 sc.close()
-        except Exception:
+        except Exception as e:
+            print(e)
             pass
 
 if __name__ == '__main__':

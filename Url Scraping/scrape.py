@@ -1,6 +1,5 @@
 from bs4 import BeautifulSoup
 import requests
-import re
  
 def scraping(website):
     req = requests.get(url)  #req = response object
