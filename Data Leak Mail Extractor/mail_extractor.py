@@ -45,7 +45,7 @@ class Exctractor:
 
         print("\n{0} entry found about \"{1}\"\n".format(count, domain))
         with open(path+"/"+domain+" ["+str(count)+"] ", "w+") as io:
-            io.write("\n{0} entry found about \"{1}\":".format(count, domain))
+            io.write("{0} entry found about \"{1}\":\n".format(count, domain))
             for i in list(set(output_lst)):
                 io.write("\n"+i)
 
