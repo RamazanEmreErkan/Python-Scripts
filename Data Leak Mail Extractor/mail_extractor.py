@@ -33,7 +33,7 @@ class Exctractor:
         output_lst = list()
         now = datetime.now().strftime("%Y-%-m-%d %H%:%M:%S")
         path = "Outputs/"+folder_name.split(".")[0]+"("+now+")"
-        pathlib.Path(path).mkdir(parents=True, exist_ok=False)
+        pathlib.Path(path).mkdir(parents=True, exist_ok=True)
 
         for mail_list in self.lst_overall:
             if type(mail_list) is list:
@@ -44,7 +44,7 @@ class Exctractor:
                             count += 1        
 
         print("\n{0} entry found about \"{1}\"\n".format(count, domain))
-        with open(path+"/"+domain+"("+now+") ["+str(count)+"] ", "w+") as io:
+        with open(path+"/"+domain+" ["+str(count)+"] ", "w+") as io:
             io.write("\n{0} entry found about \"{1}\":".format(count, domain))
             for i in list(set(output_lst)):
                 io.write("\n"+i)
