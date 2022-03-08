@@ -12,7 +12,6 @@ db.sqlite3
 media
 
 ### Input-Output Folders/Files ###
-"Data Leak Mail Extractor"/Inputs/**/*
 **/Outputs
 **/Inputs
 
