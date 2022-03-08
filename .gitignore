@@ -11,6 +11,10 @@ local_settings.py
 db.sqlite3
 media
 
+### Input-Output Folders/Files ###
+*/"Data Leak Mail Extractor"/Inputs/*
+*/"Data Leak Mail Extractor"/Outputs/*
+
 ### Linux ###
 *~
 
