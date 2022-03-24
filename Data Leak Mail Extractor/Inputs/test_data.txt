@@ -1,0 +1,4 @@
+john.doe@gmail.com
+john.doe@hotmail.com
+lorem.ipsum@domain.com.tr
+dolor.sit@domain.com.tr

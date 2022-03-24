@@ -1,0 +1,6 @@
+# Comment lines are excluded on execution. 
+# Blocks on below are contains adversary IP addresses. They added for testing.
+
+185.117.215.9/30
+171.25.193.78/30
+45.67.34.253/15
