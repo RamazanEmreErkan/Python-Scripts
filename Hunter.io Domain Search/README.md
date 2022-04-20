@@ -10,7 +10,7 @@ $ cd "Hunter.io Domain Search"
 $ virtualenv venv
 $ source venv/bin/activate
 $ pip3 install -r requirements.txt
-$ python3 hunter.py -d {Domain_Name} -k {Shodan_API_Key}
+$ python3 hunter.py -d {Domain_Name} -k {Hunter_API_Key}
 ```
 
 See project on [Source].
